@@ -1,0 +1,25 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to your UniFi Console",
+        "description": "Use a local-only UniFi OS admin account (Settings > Admins & Users > Add Admin > Local Access Only), not a cloud/SSO account.",
+        "data": {
+          "host": "Host or IP address",
+          "port": "Port",
+          "username": "Username",
+          "password": "Password",
+          "verify_ssl": "Verify SSL certificate"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid username or password",
+      "cannot_connect": "Failed to connect to the console",
+      "unknown": "Unexpected error"
+    },
+    "abort": {
+      "already_configured": "This console is already configured"
+    }
+  }
+}
